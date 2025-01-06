@@ -46,4 +46,4 @@ let startX, startY;
 let isDrawing = true;
 
 
-drawArrow(mouse.x, 0, 200, 200);
+drawArrow(mouseX, mouseY, 200, 200);
