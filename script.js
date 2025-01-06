@@ -44,30 +44,8 @@ let startX, startY;
 let isDrawing = false;
 
 // Mouse down event to start drawing
-canvas.addEventListener('mousedown', (event) => {
-    if (!isDrawing) {
-        startX = event.clientX; // Get the starting x coordinate
-        startY = event.clientY; // Get the starting y coordinate
-        isDrawing = true; // Set drawing state to true
-    }
-});
+c
 
-// Mouse up event to finish drawing
-canvas.addEventListener('mouseup', (event) => {
-    if (isDrawing) {
-        const endX = event.clientX; // Get the ending x coordinate
-        const endY = event.clientY; // Get the ending y coordinate
-        drawArrow(startX, startY, endX, endY); // Draw the arrow
-        isDrawing = false; // Reset drawing state
-    }
-});
 
-// End drawing on Escape key press
-document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-        event.preventDefault(); // Prevent default action
-        isDrawing = false; // Reset drawing state
-        console.log('Drawing ended.'); // Log to console
-    }
-});
+
 drawArrow(event.clientX, event.clientY, 200, 200)
