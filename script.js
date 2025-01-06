@@ -70,3 +70,4 @@ document.addEventListener('keydown', (event) => {
         console.log('Drawing ended.'); // Log to console
     }
 });
+drawArrow(event.clientX, event.clientY, 200, 200)
