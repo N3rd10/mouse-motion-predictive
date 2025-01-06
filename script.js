@@ -41,11 +41,7 @@ function drawArrow(x1, y1, x2, y2) {
 }
 
 let startX, startY;
-let isDrawing = false;
-
-// Mouse down event to start drawing
-c
-
+let isDrawing = true;
 
 
 drawArrow(event.clientX, event.clientY, 200, 200)
