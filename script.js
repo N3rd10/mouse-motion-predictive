@@ -10,6 +10,7 @@ document.body.appendChild(canvas);
 
 // Get the drawing context
 const ctx = canvas.getContext('2d');
+
 let mouseX = event.clientX;  // Horizontal
 let mouseY = event.clientY;  // Vertical
 
@@ -45,5 +46,5 @@ function drawArrow(x1, y1, x2, y2) {
 let startX, startY;
 let isDrawing = true;
 
-
+ctx.ellipse(MouseX, MouseY, 2, 3, 0, 0, Math.PI * 2);
 drawArrow(mouseX, mouseY, 200, 200);
