@@ -10,6 +10,8 @@ document.body.appendChild(canvas);
 
 // Get the drawing context
 const ctx = canvas.getContext('2d');
+let mouseX = event.clientX;  // Horizontal
+let mouseY = event.clientY;  // Vertical
 
 // Set a background color
 ctx.fillStyle = 'rgba(255, 255, 255, 0.5)'; // Semi-transparent white
