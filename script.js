@@ -44,4 +44,4 @@ let startX, startY;
 let isDrawing = true;
 
 
-drawArrow(event.clientX, event.clientY, 200, 200)
+drawArrow(event.clientX, event.clientY, 200, 200);
